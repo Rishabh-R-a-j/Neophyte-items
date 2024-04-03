@@ -102,7 +102,7 @@ function DrawRectangle() {
         const x = event.clientX - rect.left;
         const y = event.clientY - rect.top;
         setEndCoords({ x, y });
-        console.log("The starting and ending coordinates are");
+        console.log("The starting coordinates are");
         console.log(`startCoordinate ${startCoords.x} ${startCoords.y}`);
         setBorderCoordinates([
             ...borderCoordinates,
